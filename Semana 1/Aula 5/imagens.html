@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+
+<body>
+    <h1>Imagens 1.0</h1>
+    <hr>
+
+    <a href="https://www.google.com/">
+        <img src="img/moon.png" alt="Lua" width="100">
+    </a>
+    <a href="https://www.google.com/">
+        <img src="img/moon.svg" alt="Lua" width="100">
+    </a>
+    <a href="https://www.google.com/">
+        <img src="img/world.png" alt="Terra" width="200">
+    </a>
+    <a href="https://www.google.com/">
+        <img src="img/sun.png" alt="Sol" width="200">
+    </a>
+    <a href="https://www.google.com/">
+        <img src="https://media4.giphy.com/media/CXlLGiModdBneYJzYu/giphy.webp" alt="Gif" width="100">
+    </a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a href="https://www.google.com/">
+        <img src="https://www.mapasmundi.com.br/blog/wp-content/uploads/2015/07/mapa_brasil_100X100_regioes_2.png"
+            alt="Mapa Do Brasil" width="1000">
+    </a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <img src="img/formas.png" alt="Formas Geométricas" usemap="#formas">
+    <map name="formas">
+        <area shape="circle" coords="71,74,68" href="https://www.google.com/" alt="Circulo">
+        <area shape="rect" coords="177,139,314,2" href="https://www.google.com/" alt="Quadrado">
+        <area shape="rect" coords="352,114,526,28" href="https://www.google.com/" alt="Retângulo">
+        <area shape="poly" coords="567,132,627,10,688,132" href="https://www.google.com/" alt="Triângulo">
+    </map>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <img src="https://www.mapasmundi.com.br/blog/wp-content/uploads/2015/07/mapa_brasil_100X100_regioes_2.png"
+        alt="Mapa Do Brasil" usemap="#Brasil">
+    <map name="Brasil">
+        <area target="_blank" alt="Espirito Santo" title="Espirito Santo" href="https://www.google.com/" coords="655,550,667,541,674,528,682,516,685,500,686,493,681,485,667,482,662,488,663,499,661,504,658,516,655,523,651,529,643,534,641,540,644,546,657,550,669,526,656,549,658,537,657,550" shape="poly">
+        <area target="_blank" alt="Rio De janeiro" title="Rio De janeiro" href="https://www.facebook.com/" coords="656,554,654,562,651,570,636,578,633,586,601,586,587,587,591,576,581,570,621,562,632,555,640,541" shape="poly">
+    </map>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<picture>
+<source media="(min-width: 600px)" srcset="img/moon.png">
+<source media="(min-width: 400px)" srcset="img/moon75.png">
+<source media="(min-width: 300px)" srcset="img/moon50.png">
+<source media="(min-width: 200x)" srcset="img/moon25.png">
+
+<img src="img/moon.png" alt="Lua">
+</picture>
+
+</body>
+
+</html>
